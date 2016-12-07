@@ -67,6 +67,11 @@ public class CrimeLab {
         return null;
     }
 
+    public void setCrimes(List<Crime> crimes)
+    {
+        mCrimes = crimes;
+    }
+
     private void loadCrimeList() {
 
         //Define a Scanner which will be used to read in the file
